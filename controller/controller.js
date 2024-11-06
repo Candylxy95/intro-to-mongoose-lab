@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")();
-const Customer = require("./models/customer.js");
+const Customer = require("../models/customer");
 
 const createCustomer = async () => {
   console.log("What is the new customer's name?");
