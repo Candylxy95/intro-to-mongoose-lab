@@ -7,7 +7,7 @@ const {
   viewCustomers,
   updateCustomer,
   deleteCustomer,
-} = require("./controller/controller.js");
+} = require("./controller/controller");
 
 const runQueries = async () => {
   let running = true;
